@@ -27,7 +27,7 @@ import junit.framework.TestCase;
 @DirtiesContext
 public class CepControllerTest extends TestCase {
 
-	private static final String CEP_RESOURCE = "http://localhost:8000/cep-api/cep/";
+	private static final String CEP_RESOURCE = "http://localhost:8000/address-api/cep/";
 
     @Test
     public void testFindAddressWithWrongCep() throws Exception {

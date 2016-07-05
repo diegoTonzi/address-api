@@ -30,7 +30,7 @@ import junit.framework.TestCase;
 @DirtiesContext
 public class AddressControllerTest extends TestCase {
 
-    private static final String ADDRESS_RESOURCE = "http://localhost:8000/cep-api/address/";
+    private static final String ADDRESS_RESOURCE = "http://localhost:8000/address-api/address/";
 
     @Test
     public void testGetAddressById() throws Exception {
